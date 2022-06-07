@@ -8,7 +8,7 @@
 - See the project by [clicking here](https://hamomgs.github.io/crespos/).
 - See the project template by [clicking here](https://xd.adobe.com/view/0e3d95bd-b65a-48ea-8d0c-a3ea5e85703d-5b6e/).
 
-![Project Image](https://i.postimg.cc/cCnZDLGH/image.png)
+![Project Image](https://user-images.githubusercontent.com/88857655/172477172-d9237b15-8c8b-48c9-8395-e5fb61d861cb.png)
 <br>
 
 ## 📍 Checkpoints
