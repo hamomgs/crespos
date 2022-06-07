@@ -127,7 +127,7 @@ header {
   align-items: center;
   gap: 17.39vw;
   width: 100%;
-  height: 41.66vw;
+  height: 41.1vw;
   margin-top: 4.53vw;
   padding-left: 14.47vw;
   color: #fff;
@@ -148,6 +148,27 @@ header {
   font-weight: 300;
 }
 
+.introduction {
+  display: flex;
+  gap: 1vw;
+  width: 100%;
+  height: 19.68vw;
+  padding: 1.92vw 7.29vw 0 8.12vw;
+  color: #fff;
+  background-color: #9767A9;
+}
+
+.introduction__title {
+  width: 49.47vw;
+  font-size: 3.38vw;
+}
+
+.introduction__paragraph {
+  width: 35.10vw;
+  font-size: 1.30vw;
+  font-weight: 300;
+}
+
 /* Media queries */
 
 @media (max-width: 600px) {
@@ -163,7 +184,7 @@ header {
   }
 
   .navbar__menu {
-    position: absolute;
+    position: fixed;
     left: -100%;
     top: 11vw;
     flex-direction: column;
@@ -251,4 +272,25 @@ header {
     margin: 0;
     font-size: 5.33vw;
   }
+
+  .introduction {
+    flex-direction: column;
+    gap: 4vw;
+    height: 92.26vw;
+    padding: 1.92vw 7.29vw 0 8.12vw;
+  }
+  
+  .introduction__title {
+    width: 80.53vw;
+    font-size: 5.33vw;
+  }
+  
+  .introduction__paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 5.5vw;
+    width: 80.53vw;
+    font-size: 3.73vw;
+  }
+  
 }
